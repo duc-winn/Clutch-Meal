@@ -1,0 +1,81 @@
+/*
+Colors to work with
+#0E0B16
+#A239CA
+#4717F6
+#E7DFDD
+*/
+
+body{
+    background-color: rgb(53, 75, 95);
+}
+#main-title{
+    color: white;
+    font-size: 55px;
+}
+#requirement{
+    font-weight: 500;
+    color: red;
+}
+#dec1{
+    top: 20px;
+    left: 100px;
+}
+#dec5{
+    width: 110px;
+    position: absolute;
+    top: 200px;
+    left: 110px;
+}
+#dec4{
+    width:120px;
+    position: absolute;
+    top: 320px;
+    left: 200px;
+}
+#dec2{
+    margin-top: 10px;
+    margin-left: 90px;
+    position: relative;
+    width: 120px;
+}
+#dec3{
+    margin-top: 35px;
+    margin-left: -20px;
+}
+#dec3,
+#dec1{
+    width:150px;
+    position: absolute;
+}
+#smallDec1,
+#smallDec2{
+    position: absolute;
+    width: 150px;
+}
+#smallDec1{
+    top: 40px;
+    left: -20px;
+}
+#smallDec2{
+    top: 100px;
+    left: 400px;
+}
+
+#add-btn{
+    background-color: rgb(136,153,166);
+    border: none;
+    border-radius: 25px;
+    width: 50px;
+    color: black;
+    height: 50px;
+}
+
+#getRecipeBtn{
+    border: none;
+    font-weight: 700;
+    padding: 20px 20px;
+    background-color: rgb(136,153,166);
+    color: rgb(15, 0, 0);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}

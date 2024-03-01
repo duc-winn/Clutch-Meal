@@ -1,0 +1,104 @@
+/*
+Colors to work with
+#0E0B16
+#A239CA
+#4717F6
+#E7DFDD
+*/
+
+body{
+    position: relative;
+    background-color: #0E0B16;
+    overflow: auto;
+    padding-bottom: 0px;
+}
+#go-back-img{
+    position: absolute;
+    width: 70px;
+    top: 0px;
+    left: 10px;
+}
+#loadingScreen{
+    background-color: #0E0B16;
+    opacity: 0.6;
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    z-index: 100;
+}
+#load-icon{
+    top: 50%;
+    z-index: 101;
+    left: 50%;
+    position: fixed;
+}
+
+#exit-btn-container{
+    align-items: end;
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+.main-container{
+    text-align: center;
+}
+#mainHeader{
+    margin-top: 80px;
+    color: white;
+}
+
+#button1,
+#button2,
+#button3,
+#button4,
+#button5{
+    color: rgb(222, 206, 24);
+}
+#recipe1-div,
+#recipe2-div,
+#recipe3-div,
+#recipe4-div,
+#recipe5-div
+{
+    top: 45px;
+    z-index: 200;
+    background-color: white;
+    height: 100%;
+    width: 1fr;
+}
+#recipe-name-container{
+    margin-top: 70px;
+    border-radius: 10px;
+}
+#inner-row{
+    background-color: #d07506;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+#recipe1-name,
+#recipe2-name,
+#recipe3-name,
+#recipe4-name,
+#recipe5-name{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+#recipe1-preptime,
+#recipe2-preptime,
+#recipe3-preptime,
+#recipe4-preptime,
+#recipe5-preptime{
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.fa-heart{
+    z-index: 0;
+    color: gray;
+    cursor: pointer;
+}
